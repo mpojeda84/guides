@@ -20,7 +20,10 @@ Transaction isolation: TRANSACTION_REPEATABLE_READ
 WARNING: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. spark, tez) or using Hive 1.X releases.
 No rows affected (33.094 seconds)
 0: jdbc:hive2://psnode90:10000> [mapr@psnode92 ~]$ exit
+```
 
+- With user randy
+```
 mbp-e862:~ mpereira$ ssh randy@10.20.30.92
 randy@10.20.30.92's password: 
 Last login: Fri May 15 11:24:45 2020
