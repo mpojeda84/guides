@@ -19,9 +19,9 @@ Transaction isolation: TRANSACTION_REPEATABLE_READ
 0: jdbc:hive2://psnode90:10000> insert into a values (40, 'a');
 WARNING: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. spark, tez) or using Hive 1.X releases.
 No rows affected (33.094 seconds)
-0: jdbc:hive2://psnode90:10000> [mapr@psnode92 ~]$ exit```
+0: jdbc:hive2://psnode90:10000> [mapr@psnode92 ~]$ exit
 
-```mbp-e862:~ mpereira$ ssh randy@10.20.30.92
+mbp-e862:~ mpereira$ ssh randy@10.20.30.92
 randy@10.20.30.92's password: 
 Last login: Fri May 15 11:24:45 2020
 [randy@psnode92 ~]$ /opt/mapr/spark/spark-2.4.0/bin/beeline
@@ -37,5 +37,6 @@ Transaction isolation: TRANSACTION_REPEATABLE_READ
 0: jdbc:hive2://psnode90:10000> insert into a values (41, 'a');
 WARNING: Hive-on-MR is deprecated in Hive 2 and may not be available in the future versions. Consider using a different execution engine (i.e. spark, tez) or using Hive 1.X releases.
 No rows affected (36.711 seconds)
-0: jdbc:hive2://psnode90:10000> [randy@psnode92 ~]$ ```
+0: jdbc:hive2://psnode90:10000> [randy@psnode92 ~]$ 
+```
 
